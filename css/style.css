@@ -5,3 +5,19 @@ h1{
     color: rgb(248, 16, 16);
 text-align: center;
 }
+
+header{
+    width: 100%;
+}
+
+.logo{
+    text-align: center;
+    font-size: 1.5em;
+}
+nav{
+    text-align: center;
+    font-size: 1.5em;
+}
+.banner{
+    width: 100%;
+}
