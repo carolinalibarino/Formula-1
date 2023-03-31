@@ -6,7 +6,7 @@ h1{
 text-align: center;
 }
 
-header{
+.Titulo{
     background-color: rgb(255, 0, 51);
     width: 100%;
 }
@@ -32,3 +32,11 @@ height: 100%;
         background-color: darkgrey;
         width: 100%;
     }
+
+   .hist{
+    font-size: 1.2em;
+   }
+
+   .pilotos{
+    font-size: 1.2em;
+   }
