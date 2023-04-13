@@ -39,4 +39,16 @@ height: 100%;
 
    .pilotos{
     font-size: 1.2em;
+    width: 80%;
+    margin: auto;
    }
+
+   h2{
+    text-align: center;
+    font-size: 1.2em;
+   }
+
+li{
+   font-size: 1.5rem;
+}
+
