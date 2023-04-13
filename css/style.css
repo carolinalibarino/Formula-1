@@ -31,6 +31,7 @@ height: 100%;
     footer{
         background-color: darkgrey;
         width: 100%;
+        font-size: 1.2em;
     }
 
    .hist{
