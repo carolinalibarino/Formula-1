@@ -1,14 +1,17 @@
 body{
-    background-color: rgb(221, 176, 120);
+    background-color: aliceblue;
 }
 h1{
     color: rgb(252, 252, 252);
 text-align: center;
+font-size: 1.7em;
 }
 
 .Titulo{
-    background-color: rgb(255, 0, 51);
+    background-color:rgb(255, 0, 0);
     width: 100%;
+    font-size: 1.8em;
+    padding: 2%;
 }
 
 .logo{
@@ -29,7 +32,7 @@ height: 100%;
     margin: auto;
     }
     footer{
-        background-color: rgb(255, 0, 0);
+        background-color: gray;
         width: 100%;
         font-size: 1.2em;
     }
@@ -46,10 +49,19 @@ height: 100%;
 
    h2{
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.6em;
+    padding: 3%;
    }
 
 li{
    font-size: 1.5rem;
+   padding-bottom: 1%;
+   padding-top: 1%; 
 }
 
+.menu{
+    background-color: dimgray;
+    text-align: center;
+    padding: 2%;
+    font-size: 1.5em;
+}
