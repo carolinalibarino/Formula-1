@@ -1,3 +1,8 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
 body{
     background-color: rgb(255, 255, 255);
 }
@@ -69,4 +74,11 @@ h3{
 p{
     padding: 1%;
     
+    }
+
+ .equipes{
+        background-color: rgb(255, 0, 0);
+        width: 100%;
+        font-size: 1.8em;
+        padding: 2%;
     }
