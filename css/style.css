@@ -83,10 +83,7 @@ p{
         color: #ffffff;
     }
 
-    .inf{
-        color: #ffffff;
 
-}
 .f1{
     text-decoration: none;
     color: #000000;   
@@ -98,4 +95,8 @@ h4{
     color: #ffffff; 
 }
 
+.inf{
+    padding: 1%;
+    font-size: 1.1em;
+}
 
