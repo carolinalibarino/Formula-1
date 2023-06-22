@@ -181,22 +181,17 @@ table {
     width: 100%;
   }
   
-  td, th {
+  td, th{
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
   }
+
   
   tr:nth-child(even) {
     background-color: #dddddd;
   }
 
-/* teste */
 
-.col-25, .col-75, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-   
-  }  
 
   
