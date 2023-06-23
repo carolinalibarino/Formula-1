@@ -164,7 +164,8 @@ h5{
 .lugares{
     font-size: 1.5em;
     padding: 4%;
-    text-align: center;  
+    text-align: center; 
+    list-style-image: url(../img/); 
 }
 
 .fotoequipes{
