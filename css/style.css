@@ -20,7 +20,7 @@ h1{
 }
 
 .logo{
-    text-align: center;
+    text-align: left;
     font-size: 1.5em;
 }
 nav{
@@ -217,6 +217,19 @@ p{
     font-size: 1.3rem;
     text-align: left;
     list-style-image: url(../img/ampulheta\ maior\ maior.png);
+}
+
+.logotopo{
+    width: 20%;
+}
+
+.github{
+    width: 2%;
+}
+
+.refgit{
+    text-decoration: none;
+    color: black;
 }
 
 /*teste*/
