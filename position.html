@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste position</title>
+</head>
+
+<style>
+
+    h1{
+        position: static;
+        text-align: center;
+        color: rgb(220, 84, 168);
+        border-style: solid;
+        border: 2px solid rgb(152, 0, 114);
+        border-radius: 12px;
+        padding: 5px;
+    }
+
+    body{
+        background-color: rgb(173, 173, 173);
+    }
+
+    footer{
+        position: fixed;
+        bottom: 0;
+        text-align: center;
+        border-style: solid;
+        border: 2px solid rgb(152, 0, 114);
+        border-radius: 12px;
+        padding: 5px;
+        background-color: rgb(228, 228, 228);
+    }
+
+    .relative{
+        position: relative;
+        border-style: solid;
+        border: 2px solid rgb(152, 0, 114);
+        border-radius: 12px;
+        padding: 5px;
+    }
+
+    p{
+        padding: 1%;
+        font-size: 0.9em;
+    }
+
+    .absolute{
+        position: absolute;
+        bottom: 2px;
+        right: 2px;
+        border-style: solid;
+        border: 2px solid rgb(152, 0, 114);
+        border-radius: 3px;
+    }
+
+    h2{
+        position: sticky;
+        top: 0;
+        padding: 5px;
+        border: 2px solid rgb(152, 0, 114);
+        border-radius: 3px;
+        text-align: center;
+        background-color: rgb(228, 228, 228);
+    }
+
+    .texto{
+        position: relative;
+        border-style: solid;
+        border: 2px solid rgb(152, 0, 114);
+        border-radius: 12px;
+        padding: 5px;
+        font-size: 1.2em;
+    }
+
+    h3{
+        top: 0;
+        padding: 5px;
+        border: 2px solid rgb(152, 0, 114);
+        border-radius: 3px;
+        text-align: center;
+    }
+
+    .album{
+        text-align: center;
+        align-items: center;
+}
+</style>
+
+<body>
+        <div class="static">
+            <header>
+                <h1>Teste</h1>
+            </header>
+        </div>
+    
+        <div class="texto">
+            <p>1989 é o quinto álbum de estúdio da artista musical americana Taylor Swift, lançado em 27 de outubro de 2014, através da gravadora Big Machine. Inicialmente, o álbum foi comercializado somente nos formatos físico e digital, não sendo disponibilizado em serviços de streaming, uma decisão vinda da própria artista. O disco foi desenvolvido e gravado entre 2013 e 2014 durante a turnê The Red Tour; e Swift colaborou com uma série de compositores e produtores, incluindo Max Martin, Shellback, Jack Antonoff, Greg Kurstin e Ryan Tedder. O título foi inspirado no ano de nascimento da artista e pela cena musical da década. Seu encarte é composto por fotos de câmeras instantâneas Polaroid, sortidas em cada cópia do trabalho, com cada uma delas contendo trechos das canções escritos pela própria artista.</p>
+            <p>Descrito por Swift como seu "primeiro álbum oficialmente pop", 1989 apresenta como gêneros musicais predominantes o pop e o synthpop, sendo um notável afastamento dos trabalhos anteriores da cantora, que eram fortemente influenciados pelo country. Sua produção também se difere dos projetos anteriores da artista, sendo mais eletrônica e constituída por percussão programada, sintetizadores, acordes pulsantes de baixo, vocais de apoio processados e guitarras. O conteúdo lírico das canções possuem temas como amor e a complexidade de relacionamentos. Em geral, 1989 foi recebido de forma positiva por críticos musicais, que prezaram a mudança musical de Swift e sentiram que sua produção estava bem executada. Consequentemente, foi incluso em diversas listas que compilaram os melhores álbuns de 2014, com as revistas Billboard e Cosmopolitan citando-o como o melhor do ano, e rendeu à intérprete uma série de prêmios, incluindo um Grammy Awards para Álbum do Ano, o que fez de Swift a primeira mulher a conquistar o gramofone duas vezes com seus próprios trabalhos</p>
+            <p>Um dos lançamentos mais aguardados de 2014, 1989 obteve um desempenho comercial bastante positivo, chegando ao topo das tabelas de diversos países, incluindo a Austrália, Canadá, Reino Unido e Estados Unidos, onde fez da artista a única a estrear no cume da Billboard 200 com mais de 1 milhão de cópias vendidas por três vezes consecutivas. Como resultado, foi o terceiro disco mais vendido de 2014 no país, com apenas dois meses de disponibilização. Mundialmente, vendeu mais de dez milhões de cópias. De 1989 surgiram sete singles oficiais, dos quais "Shake It Off", "Blank Space" e "Bad Blood" tornaram-se sucessos internacionais; todos atingiram o topo da Billboard Hot 100, sendo que o primeiro estreou no ápice da tabela e o segundo fez de Swift a primeira mulher a suceder-se no topo da parada. Outras faixas de trabalho lançadas - "Style", "Wildest Dreams", "Out of the Woods" e "New Romantics" - alcançaram um desempenho comercial moderado. Para a divulgação do produto, Swift fechou parcerias com diversas empresas, apresentou-se em programas televisivos e premiações, e ingressou na turnê The 1989 World Tour, que tornou-se a mais lucrativa de 2015. Uma regravação do disco foi lançada em setembro de 2015 pelo estadunidense Ryan Adams.</p>
+        </div>
+
+
+        <h2>Taylor Swift - Style</h2>
+
+        <div class="relative">
+            <p>Midnight
+                You come and pick me up, no headlights
+                Long drive
+                Could end in burning flames or paradise
+                Fade into view, oh
+                It's been a while since I have even heard from you (heard from you)
+                And I should just tell you to leave 'cause I
+                Know exactly where it leads, but I
+                Watch us go 'round and 'round each time
+                You got that James Dean daydream look in your eye
+                And I got that red lip classic thing that you like
+                And when we go crashing down, we come back every time
+                'Cause we never go out of style, we never go out of style
+                You got that long hair, slicked back, white T-shirt
+                And I got that good girl faith and a tight little skirt
+                And when we go crashing down, we come back every time
+                'Cause we never go out of style, we never go out of style
+                So it goes
+                He can't keep his wild eyes on the road, mm
+                Takes me home
+                The lights are off, he's taking off his coat, mm, yeah
+                I say, "I heard, oh
+                That you've been out and about with some other girl, some other girl"
+                He says, "What you heard is true, but I
+                Can't stop thinkin' 'bout you and I"
+                I said, "I've been there too a few times"
+                'Cause you got that James Dean daydream look in your eye
+                And I got that red lip classic thing that you like
+                And when we go crashing down, we come back every time
+                'Cause we never go out of style, we never go out of style
+                You got that long hair, slicked back, white T-shirt
+                And I got that good girl faith and a tight little skirt (a tight little skirt)
+                And when we go crashing down, we come back every time
+                'Cause we never go out of style (we never go), we never go out of style
+                Take me home
+                Just take me home
+                Yeah, just take me home
+                Oh, whoa, oh
+                (Out of style)
+                Oh, you got that James Dean daydream look in your eye
+                And I got that red lip classic thing that you like
+                And when we go crashing down (now we go), we come back every time
+                'Cause we never go out of style, we never go out of style</p>
+
+                <div class="absolute">
+                    <img src="img/musica-romantica (1).png" alt="música">
+
+                </div>
+        </div>
+
+        <h3>Taylor Swift - Shake it off</h3>
+
+        <div class="texto">
+            <p>I stay out too late
+                Got nothing in my brain
+                That's what people say
+                That's what people say
+                I go on too many dates
+                But I can't make them stay
+                At least that's what people say
+                That's what people say
+                But I keep cruising
+                Can't stop, won't stop moving
+                It's like I got this music in my mind
+                Saying it's gonna be alright
+                I never miss a beat
+                I'm lightning on my feet
+                And that's what they don't see
+                That's what they don't see
+                Players gonna play, play, play, play, play
+                And the haters gonna hate, hate, hate, hate, hate (haters gonna hate)
+                Baby, I'm just gonna shake, shake, shake, shake, shake
+                I shake it off, I shake it off
+                Heartbreakers gonna break
+                Fakers gonna fake
+                I'm just gonna shake
+                I shake it off, I shake it off
+                I shake it off, I shake it off
+                I, I, I shake it off, I shake it off
+                I, I, I shake it off, shake it off
+                I, I, I shake it off, I shake it off
+                I, I, I shake it off, I shake it off
+                I, I, I shake it off, I shake it off
+                I, I, I, shake it off, I shake it off
+                I, I, I, shake it off, I shake it off</p>
+            
+        </div>
+
+        <h3>Tayloe Swift - Welcome to new york</h3>
+
+        <div class="texto">
+            <p>Walkin' through a crowd, the village is aglow
+                Kaleidoscope of loud heartbeats under coats
+                Everybody here wanted somethin' more
+                Searchin' for a sound we hadn't heard before
+                And it said
+                Welcome to New York, it's been waitin' for you
+                Welcome to New York, welcome to New York
+                Welcome to New York, it's been waitin' for you
+                Welcome to New York, welcome to New York
+                It's a new soundtrack, I could dance to this beat, beat forevermore
+                The lights are so bright, but they never blind me, me
+                Welcome to New York, it's been waitin' for you
+                Welcome to New York, welcome to New York
+                When we first dropped our bags on apartment floors
+                Took our broken hearts, put them in a drawer
+                Everybody here was someone else before
+                And you can want who you want
+                Boys and boys and girls and girls
+                Welcome to New York, it's been waitin' for you
+                Welcome to New York, welcome to New York
+                Welcome to New York, it's been waitin' for you
+                Welcome to New York, welcome to New York
+                It's a new soundtrack, I could dance to this beat, beat forevermore
+                The lights are so bright, but they never blind me, me
+                Welcome to New York (New York), it's been waitin' for you
+                Welcome to New York, welcome to New York
+                Like any great love, it keeps you guessing
+                Like any real love, it's ever-changing
+                Like any true love, it drives you crazy
+                But you know you wouldn't change anything, anything, anything
+                Welcome to New York, it's been waitin' for you
+                Welcome to New York, welcome to New York
+                Welcome to New York, it's been waitin' for you
+                Welcome to New York, welcome to New York
+                It's a new soundtrack, I could dance to this beat
+                The lights are so bright, but they never blind me
+                Welcome to New York (new soundtrack), it's been waitin' for you
+                Welcome to New York (the lights are so bright but they never blind me)
+                Welcome to New York (so bright, they never blind me)
+                Welcome to New York
+                Welcome to New York</p>
+
+        </div>
+
+
+        <img class="album" src="img/banner 1989.jpg" alt=" Tayloe Swift 1989">
+</body>
+
+<footer>
+    <p>Teste feito por Carolina Marzinoti Libarino</p>
+</footer>
+</html>
