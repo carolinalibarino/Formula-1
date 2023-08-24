@@ -83,10 +83,55 @@
         text-align: center;
     }
 
-    img{
+    .album{
         align-items: center;
+        text-align: center;
+        bottom: 2%;
     }
 
+    .topleft {
+        position: absolute;
+        top: 8px;
+        left: 16px;
+        font-size: 18px;
+        margin-left: 20%;
+    }
+
+    .container {
+  position: relative;
+    }
+
+    .topright {
+        position: absolute;
+        top: 8px;
+        right: 16px;
+        font-size: 18px;
+        margin-right: 20%;
+    }
+
+    .bottomleft {
+        position: absolute;
+        bottom: 8px;
+        left: 16px;
+        font-size: 18px;
+        margin-left: 20%;
+    }
+
+    .bottomright {
+        position: absolute;
+        bottom: 8px;
+        right: 16px;
+        font-size: 18px;
+        margin-right: 20%;
+    }
+
+    .center {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+    }
 
 
 </style>
@@ -98,7 +143,18 @@
             </header>
         </div>
 
-        <img src="img/banner 1989.jpg" alt="1989">
+        <div class="album">
+            <div class="container">
+                <img src="img/banner 1989.jpg" alt="1989">
+                <div class="topleft">Lado esquedo parte de cima</div>
+                <div class="topright">Lado direito parte de cima</div>
+                <div class="bottomleft">Lado esquedo parte de baixo</div>
+                <div class="bottomright">Lado direito partde de baixo</div>
+                <div class="center">Centro</div>
+            </div>
+        </div>
+        
+
 
 
     
