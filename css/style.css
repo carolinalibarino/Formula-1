@@ -6,6 +6,7 @@ html{
 body{
     background-color: rgb(255, 255, 255);
 }
+
 h1{
     color: rgb(255, 255, 255);
     text-align: center;
@@ -42,7 +43,8 @@ nav{
 footer{
     background-color: rgb(134, 134, 134);
     width: 100%;
-        font-size: 1.2em;
+    font-size: 1.2em;
+    text-align: center;
     }
 
 .hist{
@@ -118,8 +120,8 @@ h4{
 
 a:hover {
     text-decoration: none;
-    font-size: 1.3sem; 
-    color: #ff0000;
+    font-size: 1.1em; 
+    color: #56004d;
     }
 
 li{
@@ -230,8 +232,10 @@ p{
 }
 
 .refgit{
+    font-size: 1.2em;
     text-decoration: none;
     color: black;
+    text-align: center;
 }
 
 header{
@@ -250,4 +254,22 @@ header{
   .logotopo{
     width: 10%;
   }
+
+.form{
+    background-color: #cfcfcf;
+    border-color: #757575;
+
+    bottom: 0;
+    text-align: center;
+    border-style: solid;
+    border: 2px solid #757575;
+    border-radius: 12px;
+    padding: 5px;
+
+}
+
+.info{
+    text-align: center;
+
+}
   
