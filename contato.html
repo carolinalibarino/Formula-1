@@ -1,26 +1,133 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
-    <head>
-        <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="img/formula-1.png" type="image/x-icon">
-    </head>
-    <title>Contato</title>
 </head>
+
+<style>
+
+@media screen and (max-width:800px) {
+
+.col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+}
+
+.ctt{
+    flex-direction: column;
+}
+
+
+.col-25, .col-75, input[type=submit]{
+    width: 100%;
+    margin-top: 0;
+}
+}
+
+@media screen and (min-width: 801px) {
+    header {
+        flex-direction: row;
+    }
+
+    .itemdomenu {
+        position: absolute;
+        right: 1%;
+        top: 35%;
+        width: 80%;
+    }
+
+    .itemdomenu ul li {
+        display: inline;
+        margin-left: 1%;
+    }
+
+    .logo {
+        padding-left: 2%;
+        text-align: left;
+        width: 30%;
+    }
+
+    .banner {
+        margin-top: 6%;
+    }
+
+    .col-25{
+        width: 25%;
+        float: left;
+        margin-top: 6px;
+    }
+    
+    .col-75{
+    width: 75%;
+    float: left;
+    margin-top: 6px;
+    }
+}
+
+
+td,
+th {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+}
+
+
+.bordacontato {
+    background-color: #c9c9c9;
+    padding: 3%;
+    border-radius: 10px;
+    margin: 1%;
+    box-sizing: border-box;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+
+label {
+    padding: 10px 10px 10px 0;
+    display: inline-block;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+input[type=text],
+select,
+textarea,
+input[type=cel],
+input[type=email] {
+    width: 85%;
+    padding: 10px;
+    border: 2px solid #160d0e;
+    border-radius: 25px;
+    resize: vertical;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=submit] {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    margin-top: 0.8%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: default;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+</style>
 <body>
-
+    
     <div class="menu">
-        <div class="logo">
-            <img class="logotopo" src="img/logotopo.png" alt="logoF1">
-        </div>
-
         <header>
             <ul>
                 <li> <a class="Men" href="index.html#hist"> História</a></li> 
@@ -29,104 +136,112 @@
                 <li> <a class="Men" href="calendario.html#calendário">Calendário</a> </li>
                 <li> <a class="Men" href="recordes.html#recordes">Recorde</a></li> 
                 <li> <a class="Men" href="contato.html#contato">Contato</a> </li> 
-               </ul>
+               </ul> 
+               <figure>
+                    <img class="banner" src="img/banner.png" alt="logo formula 1">
+                </figure>
+                <div class="Titulo">
+                    <h1 >Fórmula 1 2023</h1>
+                </div>
         </header>
     </div>
 
-    <header>
-        <figure>
-            <img class="banner" src="img/banner.png" alt="logo formula 1">
-        </figure>
-        <div class="Titulo">
-        <h1 >Fórmula 1 2023</h1>
-        </div>
-    </header>
 
     <section id="contato">
-        <div class="form">
-            <form>
+        <div class="containerctt">
 
-                <div class="ccontato">
+                <h1>Fale conosco!</h1>
 
-                    <h2>Reclame aqui</h2>
+                
+                <div class="bordacontato">
+                    <form action="#">
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="#">Nome:</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" name="#" id="#" placeholder="Nome">
+                            </div>
+                        </div>
 
-                    <div class="info">
-                    <form action="contatoform">
-                    <label for="fname">Primeiro nome:</label><br>
-                    <input type="text" id="nome" name="nome" placeholder="nome"><br><br>
-                    <label for="lname">Ultimo nome:</label><br>
-                    <input type="text" id="sobrenome" name="sobrenome" placeholder="sobrenome"><br><br>
-                    <label for="fname">Telefone:</label><br>
-                    <input type="text" id="fname" name="fname" placeholder="(ddd) 99999-9999"><br><br>
-                    <label for="fname">Reclamação:</label><br>
-                    <input type="text" id="fname" name="fname" placeholder="conte seu problema"><br><br>
-                    
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="#">E-mail:</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="email" name="#" id="#" placeholder="nome@gmail.com">
+                            </div>
+                        </div>
 
-                    <label for="estado">Estado</label>
-                    <select id="estado" name="estado">
-                    <option value="acre">AC</option>
-                    <option value="alagoas">AL</option>
-                    <option value="amapa">AP</option>
-                    <option value="amazonas">AM</option>
-                    <option value="bahia">BA</option>
-                    <option value="ceara">CE</option>
-                    <option value="espiritosanto">ES</option>
-                    <option value="goias">GO</option>
-                    <option value="maranhao">MA</option>
-                    <option value="matogrosso">MT</option>
-                    <option value="matogrossosul">MS</option>
-                    <option value="minas">MG</option>
-                    <option value="para">PA</option>
-                    <option value="paraiba">PB</option>
-                    <option value="parana">PR</option>
-                    <option value="pernambuco">PE</option>
-                    <option value="piaui">PI</option>
-                    <option value="rio">RJ</option>
-                    <option value="riograndenorte">RN</option>
-                    <option value="riograndesul">RS</option>
-                    <option value="rondonia">RO</option>      
-                    <option value="roraima">RR</option>
-                    <option value="alagoas">AL</option>
-                    <option value="santacatarina">SC</option>
-                    <option value="saopaulo">SP</option>
-                    <option value="sergipe">SE</option>
-                    <option value="tocanthins">TO</option>      
-                    <option value="distritofederal">DF</option>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="#">Celular:</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="cel" name="#" id="#" placeholder="(ddd) 99999-9999">
+                            </div>
+                        </div>
 
-                    <input type="submit" value="Submit">
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="#">Estado:</label>
+                            </div>
+                            <div class="col-75">
+                                <select name="#" id="#">
+                                    <option value="ac">AC</option>
+                                    <option value="al">AL</option>
+                                    <option value="am">AM</option>
+                                    <option value="ap">AP</option>
+                                    <option value="ba">BA</option>
+                                    <option value="ce">CE</option>
+                                    <option value="df">DF</option>
+                                    <option value="es">ES</option>
+                                    <option value="go">GO</option>
+                                    <option value="ma">MA</option>
+                                    <option value="mg">MG</option>
+                                    <option value="ms">MS</option>
+                                    <option value="mt">MT</option>
+                                    <option value="pa">PA</option>
+                                    <option value="pb">PB</option>
+                                    <option value="pe">PE</option>
+                                    <option value="pi">PI</option>
+                                    <option value="pr">PR</option>
+                                    <option value="rj">RJ</option>
+                                    <option value="rn">RN</option>
+                                    <option value="rr">RR</option>
+                                    <option value="rs">RS</option>
+                                    <option value="ro">RO</option>
+                                    <option value="sc">SC</option>
+                                    <option value="se">SE</option>
+                                    <option value="sp">SP</option>
+                                    <option value="to">TO</option>
+                                </select>
+                            </div>
+                        </div>
 
-                    </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="#">Deixe uma reclamação ou uma sujestão:</label>
+                            </div>
+                            <div class="col-75">
+                                <textarea name="#" id="" cols="30" rows="10" placeholder="Digite aqui"></textarea>
+                            </div>
+                        </div>
 
+                        <div class="row botaoctt">
+                            <input type="submit" value="Enviar!">
+                        </div>
+                    </form>
                 </div>
-
         </div>
     </section>
-
-    </form> 
-        <div class="feedback">
-            <p>Obrigada pelo feedback. Entraremos em contato assim que possível!.</p>
-        </div>
-    </form>
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <footer>
         <h4>Desenvolvido por Carolina Marzinoti Libarino 2023</h4> 
         <img class="github" src="img/logotipo-do-github.png" alt="github">
         <a class="refgit" href="https://github.com/carolinalibarino" target="_blank">Github</a>
     </footer>
+
 
 </body>
 </html>
